@@ -1,6 +1,6 @@
 #==================================================================================================
 #   File: 6_trimQualityFilter.sh
-#   Date: 11/26/19
+#   Date: Nov 25, 2020
 #   Description: Use Trimmomatic to trim reads and quality filter
 #--------------------------------------------------------------------------------------------------
 #	Authors: Jared Homola

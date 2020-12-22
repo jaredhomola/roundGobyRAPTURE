@@ -10,10 +10,6 @@
 RUN_PATH=/mnt/home/homolaj1/gobies/lib18
 SCR=/mnt/gs18/scratch/users/homolaj1
 
-mkdir $RUN_PATH/QSTAT/sortBAM
-mkdir $RUN_PATH/SHELL/sortBAM_jobs
-mkdir $RUN_PATH/OUT/discLib/trimmedFiltered/mapped/sorted
-
 cd $RUN_PATH/SHELL
 
 ls $SCR/gobies/lib18/mapped | grep bam | awk -F "." '{print $1}' | sort | uniq | while read -r LINE

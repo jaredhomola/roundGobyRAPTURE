@@ -11,7 +11,7 @@
 cd /mnt/home/homolaj1/gobies/lib18/OUT/genotyped
 module load GCC/6.4.0-2.28 OpenMPI/2.1.2 VCFtools/0.1.15-Perl-5.26.1
 
-### Initial number of SNPs: 3.602,047
+### Initial number of SNPs: 3,602,047
 egrep -v "^#" populations.snps.vcf | wc -l
 
 ### Just grab SNPs that are within 500 bp of targeted loci. Resulting number of SNPs: 188,610

@@ -1,7 +1,7 @@
 #==================================================================================================
-#   File: 1_rename.FastQC.sh
+#   File: 3_compressFiles.sh
 #   Date: Nov 24, 2020
-#   Description: Rename raw libraries from Novogene and run FastQC on them
+#   Description: Recompress files for input into stacks
 #--------------------------------------------------------------------------------------------------
 #   Author: Jared Homola
 #==================================================================================================
